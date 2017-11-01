@@ -1,0 +1,36 @@
+img {
+  width: 100%;
+}
+.bg {
+  background: #EDEDED ;
+  padding: 0.4rem 0 0.4rem 0.4rem;
+}
+.content {
+  margin: 0 auto 0.24rem;
+  font-size: 14px;
+}
+.aImg {
+  width: 13.2rem;
+  margin: 0.6rem auto;
+}
+.step {
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+  background: #A4D2A9;
+  color: white;
+  padding-left: 0.4rem;
+}
+.one {
+  margin: 0.7rem auto;
+  border: 1px solid #D6D6D6;
+  font-size: 14px;
+  padding: 0.2rem;
+  width: 14rem;
+}
+i {
+  color: red;
+}
+.six {
+  margin-bottom: 1.6rem;
+}

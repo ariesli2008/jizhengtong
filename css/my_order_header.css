@@ -1,0 +1,36 @@
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+.header {
+  box-sizing: border-box;
+  height: 1.76rem;
+  width: 15rem;
+  background: #409bf9;
+  font-size: 0.8rem;
+  line-height: 1.76rem;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 1.54rem;
+}
+.nav {
+  width: 15rem;
+  background: #ffffff;
+}
+.nav .nav_block {
+  height: 1.64rem;
+  border-bottom: 1px solid darkgray;
+  float: left;
+  font-size: 0.66rem;
+  width: 33.33%;
+  text-align: center;
+  line-height: 1.64rem;
+}
+.nav .active_blue {
+  border-bottom: 3px solid #409bf9;
+}
+.wrap {
+  margin-top: 3.56rem;
+}

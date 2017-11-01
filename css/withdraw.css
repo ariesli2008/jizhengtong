@@ -1,0 +1,59 @@
+body {
+  background: #F4F4F4;
+}
+.title {
+  width: 15rem;
+  height: 1.52rem;
+  background: #F2F2F2;
+}
+.title span {
+  font-size: 0.56rem;
+  display: inline-block;
+  margin-left: 0.64rem;
+  color: #8B8B8B;
+}
+.credit {
+  width: 15rem;
+  height: 1.84rem;
+  background: #FEFEFE;
+  line-height: 1.52rem;
+}
+.credit span {
+  font-size: 0.64rem;
+  margin-left: 0.64rem;
+  color: #4F4F4F;
+  padding-right: 1.96rem;
+}
+.credit i {
+  font-size: 0.64rem;
+  font-style: normal;
+  color: #4F4F4F;
+}
+.wechat {
+  width: 15rem;
+  height: 2.8rem;
+  background: #fff;
+  margin-top: 0.56rem;
+  line-height: 2.4rem;
+}
+.wechat .wechat_img {
+  width: 0.84rem;
+  height: 0.84rem;
+  margin-top: 0.92rem;
+  margin-left: 0.64rem;
+}
+.wechat span {
+  font-size: 0.64rem;
+  padding-left: 0.24rem;
+}
+.tail button {
+  border: none;
+  background: #18AB14;
+  width: 13.8rem;
+  height: 2rem;
+  border-radius: 0.16rem;
+  margin-left: 0.64rem;
+  margin-top: 0.68rem;
+  font-size: 0.72rem;
+  color: #ffffff;
+}

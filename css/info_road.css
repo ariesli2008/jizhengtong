@@ -1,0 +1,35 @@
+body {
+  background: #F4F4F4;
+}
+.container .content {
+  padding: 0 0.42rem;
+}
+.container .content .con_title,
+.container .content .con_txt,
+.container .content .fp,
+.container .content .sp {
+  font-size: 0.76rem;
+  color: #AFAFAF;
+}
+.container .content .con_title {
+  margin-top: 0.72rem;
+}
+.container .content .con_txt {
+  margin-top: 0.5rem;
+  font-size: 0.64rem;
+}
+.container .content .fp {
+  margin-top: 0.5rem;
+  line-height: 1.28rem;
+  font-size: 0.64rem;
+}
+.container .content .sp {
+  margin-top: 0.44rem;
+  font-size: 0.62rem;
+}
+.container .content img {
+  display: block;
+  margin: 0.26rem auto 0;
+  width: 10.82rem;
+  height: 10.82rem;
+}

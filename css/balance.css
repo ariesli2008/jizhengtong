@@ -1,0 +1,117 @@
+body {
+  background: #F4F4F4;
+}
+.content {
+  width: 15rem;
+  height: 6rem;
+  background: #409bf9;
+  overflow: hidden;
+}
+.content .title {
+  margin-top: 0.12rem;
+  margin-left: 12.04rem;
+}
+.content .title span {
+  font-size: 0.52rem;
+  color: #fff;
+}
+.content .remainder {
+  width: 5rem;
+  height: 2.8rem;
+  margin-left: 0.64rem;
+}
+.content .remainder span {
+  font-size: 0.68rem;
+  color: #FFFBFA;
+}
+.content .remainder p {
+  width: 5rem;
+  height: 1.6rem;
+  font-size: 1.6rem;
+  color: #FFFFFF;
+}
+.content .freeze {
+  margin-left: 0.64rem;
+  margin-top: 0.24rem;
+}
+.content .freeze span {
+  font-size: 0.64rem;
+  color: #FFFBFA;
+}
+.footer_content {
+  width: 15rem;
+  height: 4.16rem;
+  background: #FFFFFF;
+  margin-top: 0.52rem;
+}
+.footer_content .recharge {
+  width: 14.36rem;
+  height: 2.08rem;
+  background: #FFFFFF;
+  border-bottom: 1px solid #C8C8C8;
+  line-height: 2.08rem;
+  margin-left: 0.64rem;
+}
+.footer_content .recharge img {
+  width: 0.92rem;
+  height: 0.68rem;
+  margin-top: 0.8rem;
+}
+.footer_content .recharge span {
+  font-size: 0.6rem;
+  color: #535353;
+}
+.footer_content .withdraw {
+  width: 14.36rem;
+  height: 2.08rem;
+  background: #FFFFFF;
+  line-height: 2.08rem;
+  margin-left: 0.64rem;
+}
+.footer_content .withdraw img {
+  width: 0.92rem;
+  height: 0.68rem;
+  margin-top: 0.8rem;
+}
+.footer_content .withdraw span {
+  font-size: 0.6rem;
+  color: #535353;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 15rem;
+  height: 1.84rem;
+  border-top: 1px solid #E2E2E6;
+  background: #F7F7FA;
+  box-sizing: border-box;
+}
+.footer .nav_grab,
+.footer .nav_case,
+.footer .nav_me,
+.footer .nav_server {
+  width: 25%;
+  float: left;
+  font-size: 0.56rem;
+  text-align: center;
+  padding-top: 0.16rem;
+}
+.footer .nav_grab a,
+.footer .nav_case a,
+.footer .nav_me a,
+.footer .nav_server a {
+  display: block;
+  color: #999;
+  margin-top: -0.16rem;
+}
+.footer .nav_grab .iconfont,
+.footer .nav_case .iconfont,
+.footer .nav_me .iconfont,
+.footer .nav_server .iconfont {
+  color: #999;
+  font-size: 0.8rem;
+}
+.footer .active {
+  color: #FE661D !important;
+}

@@ -1,0 +1,58 @@
+body {
+  background: #f4f4f4;
+}
+.content {
+  width: 15rem;
+  margin-bottom: 1.68rem;
+}
+.content .nav {
+  background: #ffffff;
+  padding: 0 1.92rem;
+  height: 1.84rem;
+  border-bottom: 0.04rem solid #e9e9e9;
+}
+.content .nav .active {
+  color: #FF6A57;
+  border-bottom: 0.084rem solid #ff6a57;
+}
+.content .nav .nav_block {
+  float: left;
+  height: 1.84rem;
+  line-height: 1.84rem;
+  text-align: center;
+  margin: 0 0.58rem;
+  font-size: 0.7rem;
+  width: 4.4rem;
+}
+.content .form {
+  margin-top: 0.54rem;
+  width: 100%;
+}
+.content .form .textarea {
+  resize: none;
+  width: 100%;
+  height: 10.08rem;
+  margin-top: 0.54rem;
+  font-size: 0.66rem;
+  padding-top: 0.4rem;
+  border-top: 0.08rem solid #e9e9e9;
+  border-bottom: 0.08rem solid #e9e9e9;
+  background: #ffffff;
+  border-left: none;
+  border-right: none;
+}
+.content .submit {
+  text-align: center;
+  margin-top: 10px;
+}
+.content .submit .btn {
+  width: 13.86rem;
+  height: 1.92rem;
+  line-height: 1.92rem;
+  border-radius: 0.32rem;
+  margin: 0 auto;
+  font-size: 0.74rem;
+  background: #1AAC19;
+  color: #ffffff;
+  border: none;
+}

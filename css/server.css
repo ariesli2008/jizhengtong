@@ -1,0 +1,58 @@
+body {
+  background: #f4f4f4;
+}
+.bg-grey {
+  width: 15rem;
+  height: 100%;
+  background: #f4f4f4;
+}
+.bg-grey .info {
+  padding-left: 0.6rem;
+  background: #FFFFFF;
+  border-bottom: 1px solid #DBDBDB;
+}
+.bg-grey .info .traffic-info,
+.bg-grey .info .grab-order,
+.bg-grey .info .register {
+  font-size: 0.6rem;
+  padding: 0.5rem 0 0.5rem 0.46rem;
+}
+.bg-grey .info .traffic-info a,
+.bg-grey .info .grab-order a,
+.bg-grey .info .register a {
+  color: black;
+}
+.bg-grey .info .traffic-info,
+.bg-grey .info .grab-order {
+  border-bottom: 1px solid #DBDBDB;
+}
+.bg-grey .suggestion {
+  background: #FFFFFF;
+  font-size: 0.6rem;
+  margin-top: 0.52rem;
+  padding: 0 0 0 1.04rem;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+}
+.bg-grey .suggestion .icon_right {
+  width: 0.36rem;
+  height: 1.8rem;
+  font-size: 0.36rem;
+  margin-right: 0.6rem;
+}
+.bg-grey .demo {
+  text-align: center;
+  font-size: 0.48rem;
+  color: #A6A6A6;
+  margin: 10rem 0 0 0;
+}
+.bg-grey .demo .container,
+.bg-grey .demo .arrow,
+.bg-grey .demo .container {
+  margin-bottom: 0.28rem;
+}
+.bg-grey .demo .phone {
+  color: #5B6274;
+}

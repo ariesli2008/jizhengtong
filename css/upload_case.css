@@ -1,0 +1,52 @@
+body {
+  background: #f3f3f3;
+  font-family: '\5FAE\8F6F\96C5\9ED1';
+}
+.content {
+  height: 10.6rem;
+  background: #fff;
+  margin-bottom: 1.24rem;
+  text-align: center;
+}
+.content .tips {
+  padding: 0.6rem 0;
+  font-size: 0.6rem;
+}
+.content .upload_img {
+  width: 8rem;
+  height: 6.4rem;
+  line-height: 6.4rem;
+  background: #f3f3f3;
+  border-radius: 0.24rem;
+  margin: 0 auto;
+  position: relative;
+}
+.content .upload_img .icon_camera {
+  font-size: 4rem;
+}
+.case_info {
+  padding: 0.36rem 1rem;
+  background: #fff;
+  margin-bottom: 0.8rem;
+}
+.case_info .case_date,
+.case_info .case_num {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.case_info span {
+  font-size: 0.52rem;
+}
+.case_submit {
+  width: 100%;
+  text-align: center;
+}
+.case_submit .case_btn {
+  width: 90%;
+  height: 1.72rem;
+  background: #419BFA;
+  color: #ffffff;
+  border: none;
+  font-size: 0.8rem;
+  border-radius: 0.12rem;
+}

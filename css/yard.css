@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #F4F4F4;
+}
+.head {
+  width: 15rem;
+  height: 1.68rem;
+  line-height: 1.68rem;
+  background: #fff;
+  overflow: hidden;
+}
+.head .head_nav {
+  width: 8rem;
+  margin: 0 auto;
+}
+.head .all_yard {
+  display: block;
+  width: 4rem;
+  height: 1.68rem;
+  font-size: 0.64rem;
+  color: #FF5440;
+  text-align: center;
+  float: left;
+  border-bottom: 2px solid #FF5440;
+}
+.head .my_collection {
+  display: block;
+  width: 4rem;
+  height: 1.68rem;
+  font-size: 0.64rem;
+  color: #555555;
+  text-align: center;
+  float: left;
+}
+.nav {
+  width: 100%;
+  height: 1.6rem;
+  overflow: hidden;
+  border-bottom: 1px solid #E8E8EE;
+}
+.nav .content_nav {
+  margin-left: 0.4rem;
+  position: relative;
+}
+.nav .content_nav .icon_seach {
+  position: absolute;
+  left: 0.2rem;
+  top: 0.34rem;
+  font-size: 0.56rem;
+}
+.nav .content_nav .input_nav {
+  border: none;
+  font-size: 0.56rem;
+  color: #ACACAC;
+  height: 0.96rem;
+  line-height: 0.96rem;
+  width: 11rem;
+  border-radius: 6px;
+  padding-left: 0.8rem;
+}
+.nav .content_nav .consult {
+  line-height: 0;
+  margin-left: 0.16rem;
+  text-decoration: none;
+  font-size: 0.56rem;
+  color: #ACACAC;
+}
+.content {
+  width: 15rem;
+}
+.content .mcontent {
+  width: 15rem;
+  height: 5.2rem;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0.32rem;
+}
+.content .mcontent .title {
+  font-size: 0.56rem;
+  color: #261A29;
+  margin-top: 0.16rem;
+  margin-left: 0.36rem;
+  font-weight: normal;
+}
+.content .mcontent .title .status {
+  display: inline-block;
+  font-size: 0.48rem;
+  background: #83CC2B;
+  width: 2.8rem;
+  height: 0.76rem;
+  border-radius: 0.24rem;
+  text-align: center;
+  line-height: 0.76rem;
+  color: #fff;
+}
+.content .mcontent .info_mcontent {
+  width: 14.6rem;
+  height: 1.56rem;
+  margin-left: 0.36rem;
+  margin-top: 0.24rem;
+  float: left;
+  position: relative;
+}
+.content .mcontent .info_mcontent li {
+  width: 14.6rem;
+  font-size: 0.48rem;
+  color: #878791;
+  margin-bottom: 0.2rem;
+}
+.content .mcontent .info_mcontent .order {
+  border-bottom: 1px dashed #A9A9AC;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.16rem;
+}
+.content .mcontent .info_mcontent .order .icon_from {
+  font-size: 1.2rem;
+  color: #ff3f28;
+  position: absolute;
+  right: 0.16rem;
+  top: 0;
+}
+.content .mcontent .info_mcontent .last_mcontent .collection {
+  font-size: 0.48rem;
+  margin-right: 0.2rem;
+}
+.content .mcontent .info_mcontent .last_mcontent .icon_star {
+  margin-right: 0.4rem;
+  font-size: 0.5rem;
+}
+.content .mcontent_lichang {
+  width: 15rem;
+  height: 3.2rem;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0.16rem;
+}
+.content .mcontent_lichang .title {
+  font-size: 0.32rem;
+  color: #261A29;
+  margin-top: 0.16rem;
+  margin-left: 0.36rem;
+  font-weight: normal;
+}
+.content .mcontent_lichang .title .status {
+  display: inline-block;
+  font-size: 0.24rem;
+  background: #83CC2B;
+  width: 1.4rem;
+  height: 0.38rem;
+  border-radius: 0.24rem;
+  text-align: center;
+  line-height: 0.38rem;
+  color: #fff;
+}
+.content .mcontent_lichang .info_mcontent {
+  width: 14.6rem;
+  height: 1.56rem;
+  margin-left: 0.36rem;
+  margin-top: 0.24rem;
+  float: left;
+}
+.content .mcontent_lichang .info_mcontent li {
+  width: 14.6rem;
+  font-size: 0.24rem;
+  color: #878791;
+  margin-bottom: 0.2rem;
+}
+.content .mcontent_lichang .info_mcontent .order {
+  border-bottom: 1px dashed #A9A9AC;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.16rem;
+}
+.content .mcontent_lichang .info_mcontent .order .location {
+  font-size: 0.6rem;
+  color: #ff3f28;
+  position: absolute;
+  right: 0.16rem;
+  top: 1.04rem;
+}
+.content .mcontent_lichang .info_mcontent .last_mcontent {
+  position: relative;
+}
+.content .mcontent_lichang .info_mcontent .last_mcontent .collection {
+  position: absolute;
+  right: 0.48rem;
+}
+.content .mcontent_lichang .info_mcontent .last_mcontent img {
+  position: absolute;
+  right: 0.16rem;
+  margin-top: 0.08rem;
+}
+.content .mcontent_pudong {
+  width: 15rem;
+  height: 3.2rem;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0.16rem;
+}
+.content .mcontent_pudong .title {
+  font-size: 0.32rem;
+  color: #261A29;
+  margin-top: 0.16rem;
+  margin-left: 0.36rem;
+  font-weight: normal;
+}
+.content .mcontent_pudong .title .status {
+  display: inline-block;
+  font-size: 0.24rem;
+  background: #83CC2B;
+  width: 1.4rem;
+  height: 0.38rem;
+  border-radius: 0.24rem;
+  text-align: center;
+  line-height: 0.38rem;
+  color: #fff;
+}
+.content .mcontent_pudong .info_mcontent {
+  width: 14.6rem;
+  height: 1.56rem;
+  margin-left: 0.36rem;
+  margin-top: 0.24rem;
+  float: left;
+}
+.content .mcontent_pudong .info_mcontent li {
+  width: 14.6rem;
+  font-size: 0.24rem;
+  color: #878791;
+  margin-bottom: 0.2rem;
+}
+.content .mcontent_pudong .info_mcontent .order {
+  border-bottom: 1px dashed #A9A9AC;
+  margin-bottom: 0.2rem;
+  padding-bottom: 0.16rem;
+}
+.content .mcontent_pudong .info_mcontent .order .location {
+  font-size: 0.6rem;
+  color: #ff3f28;
+  position: absolute;
+  right: 0.16rem;
+  top: 1.04rem;
+}
+.content .mcontent_pudong .info_mcontent .last_mcontent {
+  position: relative;
+}
+.content .mcontent_pudong .info_mcontent .last_mcontent .collection {
+  position: absolute;
+  right: 0.48rem;
+}
+.content .mcontent_pudong .info_mcontent .last_mcontent img {
+  position: absolute;
+  right: 0.16rem;
+  margin-top: 0.08rem;
+}
+.content .tail_content {
+  width: 15rem;
+  height: 1.84rem;
+  overflow: hidden;
+  margin-bottom: 0.4rem;
+}
+.content .tail_content .info_tail {
+  width: 3.6rem;
+  height: 1.24rem;
+  margin-left: 6rem;
+  margin-top: 0.36rem;
+  overflow: hidden;
+}
+.content .tail_content .info_tail li {
+  font-size: 0.24rem;
+  color: #999999;
+}
+.content .tail_content .info_tail .get_order {
+  margin-left: 0.6rem;
+  margin-bottom: 0.12rem;
+}
+.content .tail_content .info_tail .address {
+  margin-left: 0.68rem;
+}
+.content .tail_content .info_tail .tel_tail {
+  margin-bottom: 0.16rem;
+}
+.content .tail_content .info_tail .tel_tail i {
+  font-style: normal;
+  color: #0192CC;
+}

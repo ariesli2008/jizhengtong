@@ -1,0 +1,66 @@
+body {
+  background-color: #F4F4F4;
+}
+.container .content {
+  width: 15rem;
+  overflow: hidden;
+  text-align: center;
+}
+.container .content .margin_top {
+  margin-top: 1rem;
+}
+.container .content .con_title {
+  font-size: 0.6rem;
+  margin-top: 1.2rem;
+  margin-left: 2rem;
+  text-align: left;
+  color: #717171;
+}
+.container .content .con_tips {
+  margin-top: 3rem;
+  font-size: 0.6rem;
+  color: #7D7D7B;
+}
+.container .content .qrcode {
+  width: 50%;
+  margin-top: 1rem;
+}
+.container .content .font_30 {
+  font-size: 0.6rem;
+  color: #7D7D7B;
+}
+.container .content .search {
+  width: 10.8rem;
+  height: 1.44rem;
+  line-height: 1.44rem;
+  background-color: #373B3E;
+  margin: 1rem auto 0;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+  padding: 0 0.6rem;
+  position: relative;
+}
+.container .content .search .icon_seach {
+  font-size: 16px;
+}
+.container .content .search .close {
+  position: absolute;
+  right: 0.6rem;
+}
+.container .content .public {
+  width: 12rem;
+  height: 1.6rem;
+  background: #FDFDFD;
+  margin: 0 auto;
+}
+.container .content .public input {
+  width: 10rem;
+  height: 1rem;
+  margin-left: 1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  bottom: 0.3rem;
+  font-size: 0.4rem;
+}

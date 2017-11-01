@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>集正通</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="js/rem.js"></script>
+    <script src="js/main.js"></script>
+    <style>
+        .wrap .list .list-detail .icon_phone{
+            margin-left:0.4rem;
+            font-size: 1rem;
+        }
+        .wrap .list .list_left .list_name .icon_pay{
+            color: #FF9933;
+            border: 1px solid #FF9933;
+        }
+        .wrap .list .list_left .list_name .icon_live_pay{
+            color: #00B200;
+            border: 1px solid #00B200;
+            padding: 5px 8px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <header class="head">
+        <div class="head_nav clearfix">
+            <a href="javascript:;" class="user_face">
+                <img src="img/face.jpg" alt="">
+            </a>
+            <a href="javascript:;" class="empty_box clearfix active">
+                <i class="iconfont icon_ok ">&#xe695;</i>
+                空箱
+            </a>
+            <a href="javascript:;" class="heavy_box ">
+                <i class="iconfont icon_ok">&#xe695;</i>
+                重箱
+            </a>
+        </div>
+        <ul class="nav clearfix">
+            <li>
+                <span class="active">起始地</span>
+                <span class="triangle"></span>
+            </li>
+            <li>
+                <span>目的地</span>
+                <span class="triangle"></span>
+            </li>
+            <li id="triangle_price">
+                <span>价格</span>
+                <span class="triangle" ></span>
+            </li>
+            <li class="search">
+                <i class="iconfont">&#xe603;</i>
+            </li>
+        </ul>
+        <div class="search2">
+         <input type="text" placeholder="输入堆场名称">
+            <a href="javascript:">查询</a>
+            <a href="javascript:" class="cancel">取消</a>
+        </div>
+
+    </header>
+    <div class="container" id="container">
+        <div class="scroll_wrap clearfix">
+            <div class="wrap fl">
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月22日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_live_pay">线下支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <div class="display_all">已显示全部内容</div>
+            </div>
+            <div class="wrap fl">
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月22日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <ul class="list ">
+                    <li class="list_title clearfix">
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_from">&#xe693;</i>
+                            <span class="list_title_from">洋山一号码头</span>
+                        </div>
+                        <div class="arrow fl clearfix">
+                            <span class="line fl"></span>
+                            <span class="triangle fl"></span>
+                        </div>
+                        <div class="tofrom fl">
+                            <i class="iconfont icon_to">&#xe693;</i>
+                            <span class="list_title_from">上港外运在夺柘城在</span>
+                        </div>
+
+
+                    </li>
+                    <div class="clearfix">
+                        <li class="list_left fl">
+                            <ul>
+                                <li class="list_name clearfix">
+                                    <span>箱型：</span>
+                                    <span class="icon_null">空</span>
+                                    <span>40'HC</span>
+                                    <span class="icon_cop">NYK</span>
+                                    <span class="icon_pay">线上支付</span>
+                                </li>
+                                <li class="list-detail">
+                                    <span>取单：洋山三期预录站内取取单点</span>
+                                    <a href="tel:13877778888">
+                                        <i class="iconfont icon_phone">&#xe622;</i>
+                                    </a>
+                                </li>
+                                <li class="list-detail">
+                                    <span>提示：上传设备单微信支付</span>
+                                </li>
+                                <li class="list-detail clearfix">
+                                    <span class="fl">提箱：08月23日 13:00 前</span>
+                                    <div class="fr btn_detail">
+                                        <a href="javascript:;" >详细</a>
+                                        <i class="iconfont icon_down">&#xe60a;</i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list_right fr">
+                            <div class="price">
+                                ￥180
+                            </div>
+                            <div class="hotbtn">
+                                抢单
+                            </div>
+                        </li>
+                    </div>
+                    <ul class="detail_display" >
+                        <li class="list-detail">
+                            <span>取单时间：08月22日 13:00前    </span>
+
+                        </li>
+                        <li class="list-detail">
+                            <span>送箱联系人：刘</span>
+                            <a href="tel:13877778888">
+                                <i class="iconfont icon_phone">&#xe622;</i>
+                            </a>
+
+                        </li>
+                    </ul>
+
+                </ul>
+                <div class="display_all">已显示全部内容</div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="footer clearfix">
+        <div class="fl nav_grab">
+            <div ><i class="iconfont icon_grab">&#xe61e;</i></div>
+            <a href="javascript:;" class="active">抢单</a>
+        </div>
+        <div class="fl nav_case">
+            <div ><i class="iconfont icon_case">&#xe6a5;</i></div>
+            <a href="javascript:;">订单</a>
+        </div>
+        <div class="fl nav_me">
+            <div ><i class="iconfont icon_me">&#xe623;</i></div>
+            <a href="javascript:;">我的</a>
+        </div>
+        <div class="fl nav_server ">
+            <div ><i class="iconfont icon_server">&#xe7b1;</i></div>
+            <a href="javascript:;">服务</a>
+        </div>
+        <div class="nav_arrow_up">
+            <i class="iconfont icon_up">&#xe601;</i>
+        </div>
+    </footer>
+    <!--遮罩层-->
+    <div class="cover">
+        <!--下拉菜单-->
+        <ul class="serverarea">
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-success"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+            <li>
+                <span class="area">外高桥(高桥)</span>
+                <i class="weui-icon-circle"></i>
+            </li>
+
+
+        </ul>
+        <!--确认抢订单-->
+        <div class="dingdan">
+            <div class="header">你确定要抢该订单吗？</div>
+            <ul class="text1">
+                <li><span class="span1">始</span>洋山港B区</li>
+                <li class="li2"><span class="span2">终</span>洋山港c区</li>
+            </ul>
+            <ul class="text2">
+                <li>箱型：20'0T</li>
+                <li>取单地址：洋山港A区</li>
+                <li>提箱时间：01月18日00:00前</li>
+            </ul>
+            <ul class="foot ">
+                <li class="foot_1"><a href="javascript:;">取消</a></li>
+                <li ><a href="javascript:;">确定</a></li>
+            </ul>
+        </div>
+        <!--抢单成功-->
+        <div class="case_success">
+            <div class="header">信息提示</div>
+            <div class="text">
+                抢单成功，是否查看我的订单？
+            </div>
+            <ul class="foot ">
+                <li class="foot_1"><a href="javascript:;">取消</a></li>
+                <li ><a href="javascript:;">确定</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>

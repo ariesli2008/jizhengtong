@@ -1,0 +1,98 @@
+.container .content {
+  width: 15rem;
+  height: 25rem;
+}
+.container .content .hcontent {
+  width: 15rem;
+  height: 8.66rem;
+}
+.container .content .hcontent .input_tab {
+  height: 1.8rem;
+  border-bottom: 1px solid #EDEDED;
+  margin-left: 0.66rem;
+  font-size: 0.52rem;
+  line-height: 1.7rem;
+}
+.container .content .hcontent .input_tab #sel {
+  border-radius: 4px;
+  width: 56px;
+  font-size: 12px;
+  padding-left: 6px;
+}
+.container .content .hcontent .input_tab .hide_input {
+  background: red;
+  position: absolute;
+  width: 56px;
+  height: 20px;
+  left: -5px;
+  top: 154px;
+  border-radius: 6px;
+}
+.container .content .hcontent .input_tab .code {
+  width: 4.16rem;
+  height: 1.72rem;
+  position: absolute;
+  right: 0.32rem;
+  color: #75D35E;
+  font-size: 0.5rem;
+  border-left: 1px solid #EDEDED;
+  text-indent: 0.42rem;
+}
+.container .content .hcontent .input_tab .label {
+  width: 2rem;
+  display: inline-block;
+}
+.container .content .hcontent .input_tab input[type=text] {
+  border: none;
+  height: 1.52rem;
+  font-size: 0.5rem;
+  color: #B0B0B0;
+  display: inline-block;
+  margin-left: 1.6rem;
+}
+.container .content .hcontent .valueip {
+  width: 15rem;
+  height: 1.36rem;
+  background-color: #F4F4F4;
+  margin-left: 0;
+}
+.container .content .hcontent .valueip span {
+  font-size: 0.48rem;
+  color: #BBBBBB;
+  display: inline-block;
+  margin-left: 0.66rem;
+}
+.fcontent {
+  width: 15rem;
+  height: 15.2rem;
+  background: #F4F4F4;
+  overflow: hidden;
+}
+.fcontent .drive {
+  width: 5.4rem;
+  height: 6.68rem;
+  border: 1px dashed #DADADA;
+  margin-left: 0.34rem;
+  margin-top: 0.92rem;
+  font-size: 0.5rem;
+  text-align: center;
+  line-height: 6.76rem;
+}
+.fcontent .agree {
+  font-size: 0.5rem;
+  color: #B6B6B6;
+  margin-top: 36px;
+  margin-left: 18px;
+}
+.fcontent .reg {
+  font-size: 0.68rem;
+  color: #ffffff;
+  border: none;
+  width: 13.6rem;
+  height: 1.84rem;
+  background-color: #1AAC19;
+  margin-left: 0.56rem;
+  border-radius: 4px;
+  margin-top: 0.96rem;
+  font-family: ‘微软雅黑’;
+}
